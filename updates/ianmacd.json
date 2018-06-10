@@ -1,0 +1,13 @@
+{
+  "app": {
+    "version": "16.5-20180610-ianmacd",
+    "versionCode": "20180610",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/master/MagiskManager-16.5-20180610.apk"
+  },
+  "magisk": {
+    "version": "16.5-20180610-ianmacd",
+    "versionCode": "20180610",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/master/Magisk-16.5-20180610-64bit-universal.zip",
+    "note": "https://forum.xda-developers.com/showthread.php?t=3521901"
+  }
+}
