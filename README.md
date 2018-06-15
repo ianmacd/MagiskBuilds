@@ -14,3 +14,11 @@ To use this custom channel, configure the following URL in your Magisk Manager
 settings:
 
 https://raw.githubusercontent.com/ianmacd/MagiskBuilds/master/updates/ianmacd.json
+
+Alternatively, this shortened URL will also work:
+
+https://goo.gl/yZpnrf
+
+My forked repo of @topjohnwu's Magisk can be found here:
+
+https://github.com/ianmacd/magisk
