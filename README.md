@@ -3,11 +3,8 @@
 ## Description
 
 This Magisk custom update channel provides up-to-date Magisk builds from my
-fork of @topjohnwu's original sources. This will typically include minor
+fork of @topjohnwu's original sources. This will occasionally include minor
 patches to fix bugs and/or produce a universally installable build.
-
-This fork currently includes 64 bit binaries (to avoid misidentification of
-the kernel as 32 bit by apps like Phone Info and DevCheck).
 
 To use this custom channel, configure the following URL in your Magisk Manager
 settings:
