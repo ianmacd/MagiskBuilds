@@ -1,13 +1,13 @@
 {
   "app": {
-    "version": "16.8-2018072904-ianmacd",
-    "versionCode": "2018072904",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/MagiskManager-v16.8-2018072904-ianmacd.apk"
+    "version": "16.8-2018073001-ianmacd",
+    "versionCode": "2018073001",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/MagiskManager-v16.8-2018073001-ianmacd.apk"
   },
   "magisk": {
-    "version": "16.8-2018072904-ianmacd",
-    "versionCode": "2018072904",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-v16.8-2018072904-ianmacd.zip",
+    "version": "16.8-2018073001-ianmacd",
+    "versionCode": "2018073001",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-v16.8-2018073001-ianmacd.zip",
     "note": "https://forum.xda-developers.com/showthread.php?t=3521901"
   }
 }
