@@ -13,7 +13,7 @@
   "uninstaller": {
     "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-uninstaller-v16.8-2018082302-ianmacd.zip"
   },
-    "snet": {
+  "snet": {
     "versionCode": "11",
     "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/snet.apk"
   }
