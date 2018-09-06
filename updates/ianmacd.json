@@ -1,18 +1,18 @@
 {
   "app": {
-    "version": "5.9.2-2018090102-ianmacd",
-    "versionCode": "2018090102",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/MagiskManager-v5.9.2-2018090102-ianmacd.apk"
+    "version": "5.9.2-2018090601-ianmacd",
+    "versionCode": "2018090601",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/MagiskManager-v5.9.2-2018090601-ianmacd.apk"
   },
   "magisk": {
-    "version": "17.2-2018090102-ianmacd",
-    "versionCode": "2018090102",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-v17.2-2018090102-ianmacd.zip",
+    "version": "17.2-2018090601-ianmacd",
+    "versionCode": "2018090601",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-v17.2-2018090601-ianmacd.zip",
     "note": "https://forum.xda-developers.com/showthread.php?t=3521901",
-    "md5": "aebc8a637e691bceb9a764496aff22db"
+    "md5": "1fdfd24e5ad8d8398ca4324c0274cdc4"
   },
   "uninstaller": {
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-uninstaller-v17.2-2018090102-ianmacd.zip"
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/testing/Magisk-uninstaller-v17.2-2018090601-ianmacd.zip"
   },
   "snet": {
     "versionCode": "11",
