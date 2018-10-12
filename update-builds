@@ -1,0 +1,73 @@
+#!/bin/zsh
+
+# Repo details.
+#
+repo=https://github.com/ianmacd/MagiskBuilds
+branch=testing
+
+# Files to commit.
+#
+zip=$( ls Magisk-v* | tail -n 1 )
+app=$( ls MagiskManager-v* | tail -n 1 )
+unin=$( ls Magisk-uninstaller-v* | tail -n 1 )
+snet=snet.apk
+json=updates/ianmacd.json
+
+# Strings needed for JSON.
+#
+zip_v=${${zip#*-v}%.zip}
+app_v=${${app#*-v}%.apk}
+vcode=${${zip_v#*-}%-ianmacd}
+md5=$( md5sum $zip | cut -d' ' -f 1 )
+
+if [ "$1" = -d ]; then
+  echo $zip
+  echo $zip_v
+  echo $app
+  echo $app_v
+  echo $unin
+  echo $md5
+  echo $vcode
+  shift
+fi
+
+[ "$1" = --master ] && branch=master
+
+git checkout $branch
+
+if [ $branch = master ]; then
+  git merge -m "Merge branch 'testing' for $vcode." testing
+fi
+
+cat >$json <<EOF
+{
+  "app": {
+    "version": "$app_v",
+    "versionCode": "$vcode",
+    "link": "$repo/raw/$branch/$app"
+  },
+  "magisk": {
+    "version": "$zip_v",
+    "versionCode": "$vcode",
+    "link": "$repo/raw/$branch/$zip",
+    "note": "https://forum.xda-developers.com/showthread.php?t=3521901",
+    "md5": "$md5"
+  },
+  "uninstaller": {
+    "link": "$repo/raw/$branch/$unin"
+  },
+  "snet": {
+    "versionCode": "11",
+    "link": "$repo/raw/$branch/$snet"
+  }
+}
+EOF
+
+git add $zip $app $unin $snet $json
+
+if [ $branch = master ]; then
+  echo Conficts auto-resolved.
+  echo Now run: 'git merge --continue && git push' 
+else
+  echo Now run: 'git commit -am "Update '$branch' build to '$zip_v/$app_v'" && git push' 
+fi
