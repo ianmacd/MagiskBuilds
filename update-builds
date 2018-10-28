@@ -12,6 +12,7 @@ app=$( ls MagiskManager-v* | tail -n 1 )
 unin=$( ls Magisk-uninstaller-v* | tail -n 1 )
 snet=snet.apk
 json=updates/ianmacd.json
+build_dir=~/src/Magisk
 
 # Strings needed for JSON.
 #
@@ -19,6 +20,7 @@ zip_v=${${zip#*-v}%.zip}
 app_v=${${app#*-v}%.apk}
 vcode=${${zip_v#*-}%-ianmacd}
 md5=$( md5sum $zip | cut -d' ' -f 1 )
+snet_v=$( sed -rne 's/^.*versionCode ([0-9]+).*$/\1/p' $build_dir/snet/build.gradle )
 
 if [ "$1" = -d ]; then
   echo $zip
@@ -57,7 +59,7 @@ cat >$json <<EOF
     "link": "$repo/raw/$branch/$unin"
   },
   "snet": {
-    "versionCode": "11",
+    "versionCode": "$snet_v",
     "link": "$repo/raw/$branch/$snet"
   }
 }
