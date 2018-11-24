@@ -68,7 +68,7 @@ EOF
 git add $zip $app $unin $snet $json
 
 if [ $branch = master ]; then
-  echo Conficts auto-resolved.
+  echo Conflicts auto-resolved.
   echo Now run: 'git merge --continue && git push' 
 else
   echo Now run: 'git commit -am "Update '$branch' build to '$zip_v/$app_v'" && git push' 
