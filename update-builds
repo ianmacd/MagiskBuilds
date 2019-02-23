@@ -66,10 +66,18 @@ cat >$json <<EOF
 EOF
 
 git add $zip $app $unin $snet $json
+echo
 
 if [ $branch = master ]; then
+  cmd='git merge --continue && git push'
   echo Conflicts auto-resolved.
-  echo Now run: 'git merge --continue && git push' 
 else
-  echo Now run: 'git commit -am "Update '$branch' build to '$zip_v/$app_v'" && git push' 
+  cmd='git commit -am "Update '$branch' build to '$zip_v/$app_v'" && git push'
+  #echo Now run: 'git commit -am "Update '$branch' build to '$zip_v/$app_v'" && git push' 
 fi
+
+echo Now run: $cmd 
+echo -n 'Run that now? (y/n) '
+read -q i
+echo
+[ $i = y ] && eval $cmd
