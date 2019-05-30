@@ -46,7 +46,8 @@ cat >$json <<EOF
   "app": {
     "version": "$app_v",
     "versionCode": "$vcode",
-    "link": "$repo/raw/$branch/$app"
+    "link": "$repo/raw/$branch/$app",
+    "note": ""
   },
   "magisk": {
     "version": "$zip_v",
