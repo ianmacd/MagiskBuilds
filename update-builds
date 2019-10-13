@@ -33,7 +33,9 @@ if [ "$1" = -d ]; then
   shift
 fi
 
+[ "$1" = --testing ] && branch=testing
 [ "$1" = --master ] && branch=master
+[ "$1" = --private ] && branch=private
 
 git checkout $branch
 
