@@ -1,19 +1,19 @@
 {
   "app": {
-    "version": "7.5.2-2020012201-ianmacd",
-    "versionCode": "2020012201",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/MagiskManager-v7.5.2-2020012201-ianmacd.apk",
+    "version": "7.5.2-2020012301-ianmacd",
+    "versionCode": "2020012301",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/MagiskManager-v7.5.2-2020012301-ianmacd.apk",
     "note": ""
   },
   "magisk": {
-    "version": "20.4-2020012201-ianmacd",
-    "versionCode": "2020012201",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-v20.4-2020012201-ianmacd.zip",
+    "version": "20.4-2020012301-ianmacd",
+    "versionCode": "2020012301",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-v20.4-2020012301-ianmacd.zip",
     "note": "https://forum.xda-developers.com/showthread.php?t=3521901",
-    "md5": "0a129d603831b389c2fa16d22229792d"
+    "md5": "94ff8fa1d20394ff1455295f1b850107"
   },
   "uninstaller": {
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-uninstaller-v20.4-2020012201-ianmacd.zip"
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-uninstaller-v20.4-2020012301-ianmacd.zip"
   },
   "stub": {
     "versionCode": "7",
