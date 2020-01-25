@@ -12,6 +12,7 @@ app=$( ls MagiskManager-v* | tail -n 1 )
 unin=$( ls Magisk-uninstaller-v* | tail -n 1 )
 snet=snet.apk
 json=updates/ianmacd.json
+note=changelog.md
 build_dir=~/src/Magisk
 
 # Strings needed for JSON.
@@ -51,13 +52,13 @@ cat >$json <<EOF
     "version": "$app_v",
     "versionCode": "$vcode",
     "link": "$repo/raw/$branch/$app",
-    "note": ""
+    "note": "$repo/raw/$branch/$note"
   },
   "magisk": {
     "version": "$zip_v",
     "versionCode": "$vcode",
     "link": "$repo/raw/$branch/$zip",
-    "note": "https://forum.xda-developers.com/showthread.php?t=3521901",
+    "note": "$repo/raw/$branch/$note",
     "md5": "$md5"
   },
   "uninstaller": {
@@ -66,15 +67,12 @@ cat >$json <<EOF
   "stub": {
     "versionCode": "$stub_v",
     "link": "$repo/raw/$branch/stub-release.apk"
-  },
-  "snet": {
-    "versionCode": "$snet_v",
-    "link": "$repo/raw/$branch/$snet"
   }
 }
 EOF
 
-git add $zip $app $unin $snet $json
+cp -p $build_dir/app/src/main/res/raw/changelog.md . 
+git add $zip $app $unin $snet $json $note
 echo
 
 if [ $branch = master ]; then
