@@ -12,7 +12,7 @@ app=$( ls MagiskManager-v* | tail -n 1 )
 unin=$( ls Magisk-uninstaller-v* | tail -n 1 )
 snet=snet.apk
 json=updates/ianmacd.json
-note=changelog.md
+note=notes.md
 build_dir=~/src/Magisk
 
 # Strings needed for JSON.
@@ -71,7 +71,7 @@ cat >$json <<EOF
 }
 EOF
 
-cp -p $build_dir/app/src/main/res/raw/changelog.md . 
+cp -p $build_dir/app/src/main/res/raw/notes.md . 
 git add $zip $app $unin $snet $json $note
 echo
 
