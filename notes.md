@@ -1,15 +1,23 @@
-### Build: 2020012601
+### Build: 2020012701
 #### app: v7.5.2
-#### Magisk: v20.4-79d359ea
+#### Magisk: v20.4-98888957
+
+- e395c944: Upstream system_properties
+- 30286f0e: Fixed translations
+- 60ee7428: Update RO strings
+- a913ede4: French translation update
+- 95925837: Language update PT-BR
+- ad49d3ad: Update Simplified Chinese Translation
+- 21ee73c2: Translation Correction
+- f5d0cc9f: Updated helper lists so they are lazily populated
+
+#### Most recent 20 previous commits:
 
 - b90c6537: Fix build on Windows
 - a86b9e81: Update RU strings
 - d27773de: Add missing string-es resources
 - 8abdaeb0: Translated newest string
 - 9682d2f8: 更新繁體中文字串
-
-#### Most recent 20 previous commits:
-
 - a8bb7c68: Add missing string resources
 - bdad29ad: Fix pt-rBR strings
 - fadcfe5f: Added new Georgian (ქართული)  translation
@@ -25,8 +33,3 @@
 - 36513c23: Don't direct reference R id
 - 3a10597a: Remove unused resources
 - 2291be5d: Merge string resources
-- 345c3ef1: Remove old settings page
-- 12a9792c: Remove old install dialog
-- c5e5b70e: Added safe mode notice to modules
-- 327b1862: Fixed theme mode title
-- 5c1417e2: Updated home layout
