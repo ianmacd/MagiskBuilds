@@ -1,12 +1,23 @@
-### Build: 2020013001
+### Build: 2020013002
 #### app: v7.5.2
-#### Magisk: v20.4-35458567
+#### Magisk: v20.4-3e0b4d3f
 
+- 497efc9f: Make scrambled text prettier
+- 19d76b63: Fix de strings
+- 4875def3: Complete and improve French translation
+- 155c0e36: Update Slovak language
+- 00ea15dc: Update and fix Polish language
+- f04c4cb7: Update de strings
+- 6e477769: Change recreate logic
+- 4638fdf2: Fixed dialog content being squished unnecessarily
+- 0783d385: Removed security note
+- cf918e7d: Updated text "variant" transparency
+- 1ba9faf3: Added legacy theme (Fraxure)
+- 6e48294f: Removed unnecessary files and merged styles
+- dea607b1: Small SignAPK improvements
+- e938e717: Refactor PatchAPK code
+- 2eed09ef: Upgrade AS
 - 8a6b3644: Strip only debug and verbose logging
-- 8ca169a4: Restore additional paddings for fdt
-- 003a8a9f: scripts: fixes for Tegra partition naming + bootsigner on Android 10 - adjust mount scripts to support SOS, APP and CAC Tegra partition naming (vendor is still vendor, oddly) - -Xnodex2oat is removed on Android 10 in AOSP (despite it still erroneously showing in dalvikvm --help); older devices will still run safely without it - Android 10 dynamically linked binaries need APEX mounts and variables so add this to recovery_actions/cleanup (thanks @Zackptg5) - clean up known systemless root leftovers because we're helpful
-- ab570c8e: magiskboot: fix lzop detection
-- 402147da: init: fix Tegra "APP" /system partition mounting - thanks rootfan in https://github.com/topjohnwu/Magisk/issues/2063#issuecomment-573232567
 
 #### Most recent 20 previous commits:
 
