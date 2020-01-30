@@ -1,19 +1,19 @@
 {
   "app": {
-    "version": "7.5.2-2020012901-ianmacd",
-    "versionCode": "2020012901",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/MagiskManager-v7.5.2-2020012901-ianmacd.apk",
+    "version": "7.5.2-2020013001-ianmacd",
+    "versionCode": "2020013001",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/MagiskManager-v7.5.2-2020013001-ianmacd.apk",
     "note": "https://github.com/ianmacd/MagiskBuilds/raw/private/notes.md"
   },
   "magisk": {
-    "version": "20.4-2020012901-ianmacd",
-    "versionCode": "2020012901",
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-v20.4-2020012901-ianmacd.zip",
+    "version": "20.4-2020013001-ianmacd",
+    "versionCode": "2020013001",
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-v20.4-2020013001-ianmacd.zip",
     "note": "https://github.com/ianmacd/MagiskBuilds/raw/private/notes.md",
-    "md5": "10a0754877ca25d41c4b91e548be0220"
+    "md5": "76bf45733767b5b5dd41b914599d8550"
   },
   "uninstaller": {
-    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-uninstaller-v20.4-2020012901-ianmacd.zip"
+    "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-uninstaller-v20.4-2020013001-ianmacd.zip"
   },
   "stub": {
     "versionCode": "7",
