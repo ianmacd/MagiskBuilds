@@ -1,12 +1,21 @@
-### Build: 2020020101
+### Build: 2020020201
 #### app: v7.5.2
-#### Magisk: v20.4-e93c8ce4
+#### Magisk: v20.4-45488e4c
 
-- cf589f8c: Fix error loading libsqlite.so
-- e864919c: Jellybean supports modules
+- 05867603: Polish translation - Minor corrections/improvements
+- d535f244: Corrected translation
+- 613d4682: Update
+- 041355f1: Final Language Update PT-BR
+- 6977dc08: Fixed texts being incorrect if injected from context
+- d3dffe81: Updated legacy theme to match error color instead of having separate secondary color
+- 6812f9d2: Updated su request dialog to match overall app theme
+- 555e7cc9: Fixed dialog not being centered
+- 61805580: Add support for genfscon sepolicy rules
 
 #### Most recent 20 previous commits:
 
+- cf589f8c: Fix error loading libsqlite.so
+- e864919c: Jellybean supports modules
 - c72d83b6: Update docs
 - f2d2f28e: scripts: fixes for Tegra partition naming + bootsigner on Android 10 - adjust mount scripts to support SOS, APP and CAC Tegra partition naming (vendor is still vendor, oddly) - -Xnodex2oat is removed on Android 10 in AOSP (despite it still erroneously showing in dalvikvm --help); older devices will still run safely without it - Android 10 dynamically linked binaries need APEX mounts and variables so add this to recovery_actions/cleanup (thanks @Zackptg5) - clean up known systemless root leftovers because we're helpful
 - a7435dad: magiskboot: fix lzop detection
@@ -25,5 +34,3 @@
 - 0783d385: Removed security note
 - cf918e7d: Updated text "variant" transparency
 - 1ba9faf3: Added legacy theme (Fraxure)
-- 6e48294f: Removed unnecessary files and merged styles
-- dea607b1: Small SignAPK improvements
