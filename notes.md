@@ -1,6 +1,14 @@
-### Build: 2020020201
+### Build: 2020020301
 #### app: v7.5.2
-#### Magisk: v20.4-45488e4c
+#### Magisk: v20.4-f032d60d
+
+- ed58cf95: Add missing string resources
+- ec26bc5a: Corrections for Romanian
+- 84e4bd3d: Move readlinkat fix into xwrap
+- 0ecfb63c: Fix crash during boot in x86 platform
+- ebdd6ec4: Fallback to getprop to get SDK_INT
+
+#### Most recent 20 previous commits:
 
 - 05867603: Polish translation - Minor corrections/improvements
 - d535f244: Corrected translation
@@ -11,9 +19,6 @@
 - 6812f9d2: Updated su request dialog to match overall app theme
 - 555e7cc9: Fixed dialog not being centered
 - 61805580: Add support for genfscon sepolicy rules
-
-#### Most recent 20 previous commits:
-
 - cf589f8c: Fix error loading libsqlite.so
 - e864919c: Jellybean supports modules
 - c72d83b6: Update docs
@@ -25,12 +30,3 @@
 - 29062484: Reorganize dtb code
 - 497efc9f: Make scrambled text prettier
 - 19d76b63: Fix de strings
-- 4875def3: Complete and improve French translation
-- 155c0e36: Update Slovak language
-- 00ea15dc: Update and fix Polish language
-- f04c4cb7: Update de strings
-- 6e477769: Change recreate logic
-- 4638fdf2: Fixed dialog content being squished unnecessarily
-- 0783d385: Removed security note
-- cf918e7d: Updated text "variant" transparency
-- 1ba9faf3: Added legacy theme (Fraxure)
