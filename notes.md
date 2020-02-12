@@ -1,13 +1,69 @@
-### Build: 2020020801
+### Build: 2020021201
 #### app: v7.5.2
-#### Magisk: v20.4-fbd17bc3
+#### Magisk: v20.4-50cab811
+
+- 10eb159e: Disable Grant Button for 1 seconds after popup display
+- 36897ceb: Add slight stroke to navigation card
+- 9a827413: Manually set referenced resource ID for barriers
+- c8d050c3: Fix strings resources
+- a46cd63c: 更新繁體中文字串
+- e9e6eaf0: Update Simplified Chinese Translation
+- cb5897af: Update Turkish translation
+- d701d6eb: Update Slovak translation
+- 470ebb54: Update RU strings
+- 632cab39: ReFormat Strings
+- 189c4cc9: Update UK strings
+- 70d5e2de: Remove board info from home screen
+- c586106e: Remove confusing scrambled "Manager" text
+- ffa85a61: Update home screen layout (yet again)
+- e5ea3e4a: Fixed button text color on flash screen
+- 0492e638: Added unified switches to install screen
+- 99523873: Updated layouts to fit new widget that should visually represent a switch
+- d7653e6e: Cleaned up unused resources
+- e9fc40d2: Removed grid scale gestures and reverted back to * simple list as a default
+- 740559e3: Fix int detection in scripts
+- 9471577b: Properly detect advanced device info
+- e85d5e54: Update root shell preparation
+- 5fb071d8: Merge app scripts
+- 022151fe: Prevent fake clicks on SuRequest
+- 3b8d2fe8: Add ramdisk detection
+- d51d549a: Refactor string resources
+- b5ac24f2: Fix strings
+- 3ca99005: Update strings.xml
+- 0b9f2921: Update RU strings
+- 389501ad: Polish translation - Added missing strings
+- 082e4eb0: Update strings.xml
+- 47f885a5: Update Italian translation
+- bc964b85: Update Ukrainian (UK) translation
+- b57b3313: Update Simplified Chinese Translation
+- f185cefa: Missing string
+- 9d256e02: Add missing string for Romanian
+- 086c64c0: Update Slovak translation
+- 798fe570: Update Georgian translation
+- a03f7446: Update strings.xml
+- 64f35744: Reorganize home screen layout
+- b5125281: Updated toolbar layout to match the new aesthetic
+- fdfa037d: Added very slight hint of the card being selectable
+- db4ef144: Removed unnecessary code
+- 810468c2: Added offline states for magisk and manager sections
+- 8146d083: Fixed wrong horizontal bias
+- 7e946b04: Updated uninstall button to match aesthetic
+- 97d24a7d: Removed single-use reboot menu
+- f8bea663: Fixed menu inflating unnecessarily on every click
+- dd912901: Added a condition to hide reboot button when no root is available
+- cbe3602c: Fixed views hiding the view below with them
+- 1d831d65: Added overflow menu for reboot
+- c35d0207: Added uninstall button to magisk details
+- c18db555: Updated sections' title colors
+- 373092af: Updated homepage layout
+- 1a2e157c: 4000th commit! 🎉 Just for celebration, empty commit
+- b3bc1a39: Merge addon.d scripts
+
+#### Most recent 20 previous commits:
 
 - 4dd8d75c: Update scripts
 - e5f50bb7: Update busybox
 - 45d5b4be: scripts: recovery addon.d-v2 and env fixes - recovery addon.d-v2 requires /system and /system_root stay mounted - find OUTFD from recovery update_engine for addon.d-v2 output - fix finding OUTFD on addon.d failure with toybox ps - simplify heredoc creation - update to longer apex BOOTCLASSPATH - save and restore any mountpoint symlinks encountered
-
-#### Most recent 20 previous commits:
-
 - ed58cf95: Add missing string resources
 - ec26bc5a: Corrections for Romanian
 - 84e4bd3d: Move readlinkat fix into xwrap
@@ -25,6 +81,3 @@
 - cf589f8c: Fix error loading libsqlite.so
 - e864919c: Jellybean supports modules
 - c72d83b6: Update docs
-- f2d2f28e: scripts: fixes for Tegra partition naming + bootsigner on Android 10 - adjust mount scripts to support SOS, APP and CAC Tegra partition naming (vendor is still vendor, oddly) - -Xnodex2oat is removed on Android 10 in AOSP (despite it still erroneously showing in dalvikvm --help); older devices will still run safely without it - Android 10 dynamically linked binaries need APEX mounts and variables so add this to recovery_actions/cleanup (thanks @Zackptg5) - clean up known systemless root leftovers because we're helpful
-- a7435dad: magiskboot: fix lzop detection
-- 793f0b60: init: fix Tegra "APP" /system partition mounting - thanks rootfan in https://github.com/topjohnwu/Magisk/issues/2063#issuecomment-573232567
