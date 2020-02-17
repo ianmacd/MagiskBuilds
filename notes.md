@@ -1,12 +1,14 @@
-### Build: 2020021301
+### Build: 2020021701
 #### app: v7.5.2
-#### Magisk: v20.4-65cc41f7
+#### Magisk: v20.4-aeaff0d8
 
-- ce7cb1ee: Remove device section
-- d2701616: Fixed bottom navigation colors so it doesn't blend together with the misused layout underneath
+- 8453282f: Improve flash console screen
+- 40f971d1: Add entrypoint for testing
 
 #### Most recent 20 previous commits:
 
+- ce7cb1ee: Remove device section
+- d2701616: Fixed bottom navigation colors so it doesn't blend together with the misused layout underneath
 - 10eb159e: Disable Grant Button for 1 seconds after popup display
 - 36897ceb: Add slight stroke to navigation card
 - 9a827413: Manually set referenced resource ID for barriers
@@ -25,5 +27,3 @@
 - 0492e638: Added unified switches to install screen
 - 99523873: Updated layouts to fit new widget that should visually represent a switch
 - d7653e6e: Cleaned up unused resources
-- e9fc40d2: Removed grid scale gestures and reverted back to * simple list as a default
-- 740559e3: Fix int detection in scripts
