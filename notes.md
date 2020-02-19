@@ -1,12 +1,22 @@
-### Build: 2020021701
+### Build: 2020021901
 #### app: v7.5.2
-#### Magisk: v20.4-aeaff0d8
+#### Magisk: v20.4-97b73f99
 
-- 8453282f: Improve flash console screen
-- 40f971d1: Add entrypoint for testing
+- 3e70a61e: Fix strings
+- 76f35d02: Update strings-es
+- 356b417a: Update RU strings
+- 56147a80: Updated Translations
+- 91728991: Update Strings-es STUB version
+- 0f7e59d2: Update + Fixes ca-strings
+- f33028c6: some changes
+- f9149ad4: French translation
+- 0d7474cc: Fix all locale issues
+- 1e7e06d1: Proper canary version detection
 
 #### Most recent 20 previous commits:
 
+- 8453282f: Improve flash console screen
+- 40f971d1: Add entrypoint for testing
 - ce7cb1ee: Remove device section
 - d2701616: Fixed bottom navigation colors so it doesn't blend together with the misused layout underneath
 - 10eb159e: Disable Grant Button for 1 seconds after popup display
@@ -25,5 +35,3 @@
 - ffa85a61: Update home screen layout (yet again)
 - e5ea3e4a: Fixed button text color on flash screen
 - 0492e638: Added unified switches to install screen
-- 99523873: Updated layouts to fit new widget that should visually represent a switch
-- d7653e6e: Cleaned up unused resources
