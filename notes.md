@@ -1,6 +1,16 @@
-### Build: 2020021901
+### Build: 2020022601
 #### app: v7.5.2
-#### Magisk: v20.4-97b73f99
+#### Magisk: v20.4-1d53f934
+
+- 0ce7da1b: Upgrade AGP
+- e6464c5c: Fixed module filter list not respecting single column layout
+- c6b3f06b: Cleanup stuffs
+- 581419b6: Update dependencies
+- 696ab677: New pre-init magic mount implementation
+- 0d229dac: Support Android 11 SELinux paths
+- 3b8ea599: Fix switch_root implementation
+
+#### Most recent 20 previous commits:
 
 - 3e70a61e: Fix strings
 - 76f35d02: Update strings-es
@@ -12,9 +22,6 @@
 - f9149ad4: French translation
 - 0d7474cc: Fix all locale issues
 - 1e7e06d1: Proper canary version detection
-
-#### Most recent 20 previous commits:
-
 - 8453282f: Improve flash console screen
 - 40f971d1: Add entrypoint for testing
 - ce7cb1ee: Remove device section
@@ -25,13 +32,3 @@
 - c8d050c3: Fix strings resources
 - a46cd63c: 更新繁體中文字串
 - e9e6eaf0: Update Simplified Chinese Translation
-- cb5897af: Update Turkish translation
-- d701d6eb: Update Slovak translation
-- 470ebb54: Update RU strings
-- 632cab39: ReFormat Strings
-- 189c4cc9: Update UK strings
-- 70d5e2de: Remove board info from home screen
-- c586106e: Remove confusing scrambled "Manager" text
-- ffa85a61: Update home screen layout (yet again)
-- e5ea3e4a: Fixed button text color on flash screen
-- 0492e638: Added unified switches to install screen
