@@ -1,6 +1,10 @@
-### Build: 2020022601
+### Build: 2020022801
 #### app: v7.5.2
-#### Magisk: v20.4-1d53f934
+#### Magisk: v20.4-501c4d79
+
+- b90e0430: Don't do layered cards
+
+#### Most recent 20 previous commits:
 
 - 0ce7da1b: Upgrade AGP
 - e6464c5c: Fixed module filter list not respecting single column layout
@@ -9,9 +13,6 @@
 - 696ab677: New pre-init magic mount implementation
 - 0d229dac: Support Android 11 SELinux paths
 - 3b8ea599: Fix switch_root implementation
-
-#### Most recent 20 previous commits:
-
 - 3e70a61e: Fix strings
 - 76f35d02: Update strings-es
 - 356b417a: Update RU strings
@@ -25,10 +26,3 @@
 - 8453282f: Improve flash console screen
 - 40f971d1: Add entrypoint for testing
 - ce7cb1ee: Remove device section
-- d2701616: Fixed bottom navigation colors so it doesn't blend together with the misused layout underneath
-- 10eb159e: Disable Grant Button for 1 seconds after popup display
-- 36897ceb: Add slight stroke to navigation card
-- 9a827413: Manually set referenced resource ID for barriers
-- c8d050c3: Fix strings resources
-- a46cd63c: 更新繁體中文字串
-- e9e6eaf0: Update Simplified Chinese Translation
