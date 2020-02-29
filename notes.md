@@ -1,7 +1,12 @@
-### Build: 2020022901
+### Build: 2020022902
 #### app: v7.5.2
-#### Magisk: v20.4-67e33a0a
+#### Magisk: v20.4-8b7f38c6
 
+- 642788ab: Typo fix.
+- 3cd11dd9: Update Slovak translation
+- bf2c5ce3: Updated Polish translation
+- 65c510a2: Update Romanian strings
+- 6fbc38d7: Add more notice/messages
 - 200bf993: Show unsupported message when running low versions
 - 38af82e1: Update AS
 - fc05f377: Update env fix handling logic
