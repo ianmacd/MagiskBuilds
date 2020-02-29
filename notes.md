@@ -1,7 +1,13 @@
-### Build: 2020022801
+### Build: 2020022901
 #### app: v7.5.2
-#### Magisk: v20.4-501c4d79
+#### Magisk: v20.4-67e33a0a
 
+- 200bf993: Show unsupported message when running low versions
+- 38af82e1: Update AS
+- fc05f377: Update env fix handling logic
+- 5c0e8638: Add test button toggle in code
+- 64f5ff54: Use global A/B detection
+- 75877711: Improve application startup
 - b90e0430: Don't do layered cards
 
 #### Most recent 20 previous commits:
