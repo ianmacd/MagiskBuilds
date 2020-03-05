@@ -1,7 +1,12 @@
-### Build: 2020022902
+### Build: 2020030501
 #### app: v7.5.2
-#### Magisk: v20.4-8b7f38c6
+#### Magisk: v20.4-65b4b336
 
+- 409cb06e: Fixed layout not reacting to nested scroll on su screen
+- 88d917b6: Added permission check for installing/downloading modules
+- faf077b4: Min ver is 19.0, don't need legacy commands
+- ee1f45aa: Add new commandline option to get tmpfs root
+- 915fd302: Small string resource reorganization
 - 642788ab: Typo fix.
 - 3cd11dd9: Update Slovak translation
 - bf2c5ce3: Updated Polish translation
