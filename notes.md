@@ -1,15 +1,19 @@
-### Build: 2020032101
+### Build: 2020032201
 #### app: v7.5.2
-#### Magisk: v20.4-4346f707
+#### Magisk: v20.4-097a5461
+
+- 160ff7bb: Update abort function to cleanup module installs
+- 31142180: Fix strings
+- 38b0fa04: Small translation fix
+- 29817245: update de strings
+
+#### Most recent 20 previous commits:
 
 - 925fe6f1: Update RU strings
 - 93fd574b: 更新繁體中文字串
 - 0de88bcb: Polish translation - add missing strings, small improvements.
 - 0b70bd2b: scripts: make remaining header/section dividers uniform - match other recent formatting updates from topjohnwu
 - 84ecba46: scripts: fix addon.d again by ensuring all arguments get passed - /proc/$$/cmdline is \0 terminated argument strings except for the last argument which has no terminus, so the last argument was being dropped by `while read` which requires input to be \n terminated - switch to a for loop, which will use the \n delimiter but also read the last argument; all arguments are still protected by quoting - clean up potentially breaking recovery env since $OLD_PATH no longer exists
-
-#### Most recent 20 previous commits:
-
 - f7142e69: Fix module install in util_functions.sh
 - ed7e5608: Fix ensure_bb implementation
 - 47e50e85: scripts: add nand/mtd support to installer - Magisk's busybox now has nanddump, flash_eraseall and nandwrite, so use these to support character devices
@@ -25,8 +29,3 @@
 - 511d5993: Update Strings-es.xml
 - 9f4958e8: Updated safetynet success color to primary
 - c07775f5: Add missing ro.vendor(.boot).warranty_bit props
-- e261579e: Use standalone mode in boot scripts
-- cf54cad3: deleteprop -> delprop
-- a0998009: Small native code reorganization
-- d6fdbfe9: Utilize standalone mode for emulator.sh
-- 07228279: Update Slovak translation
