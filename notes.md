@@ -1,14 +1,24 @@
-### Build: 2020032201
+### Build: 2020032301
 #### app: v7.5.2
-#### Magisk: v20.4-097a5461
+#### Magisk: v20.5-0c97f72e
+
+- 375ab93e: Update logo.png
+- d5962e9d: Update README.MD
+- ffaa264b: Update documentation
+- ba7cb473: Make version reporting consistent
+- 48d417f9: Add symlink for backwards compatibility The native code has to run with an old verison of Magisk Manager, add this back so things will work properly.
+- df4db6bf: Added Dutch translation for stub
+- b8ef491b: Updated Dutch translation
+- ea1ebb8d: Polish translation - fix missing string
+- 91b6d285: scripts: add nand/mtd support to uninstaller
+- d7cd1b37: add missing flags
+
+#### Most recent 20 previous commits:
 
 - 160ff7bb: Update abort function to cleanup module installs
 - 31142180: Fix strings
 - 38b0fa04: Small translation fix
 - 29817245: update de strings
-
-#### Most recent 20 previous commits:
-
 - 925fe6f1: Update RU strings
 - 93fd574b: 更新繁體中文字串
 - 0de88bcb: Polish translation - add missing strings, small improvements.
@@ -25,7 +35,3 @@
 - 8101f3f6: Set proper permissions
 - e3c8d723: Add linebrake notice for module.prop
 - 45798257: Updated Georgian strings
-- ef91c33f: Update RU strings
-- 511d5993: Update Strings-es.xml
-- 9f4958e8: Updated safetynet success color to primary
-- c07775f5: Add missing ro.vendor(.boot).warranty_bit props
