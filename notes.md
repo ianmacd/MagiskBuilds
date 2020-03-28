@@ -1,13 +1,17 @@
-### Build: 2020032701
+### Build: 2020032801
 #### app: v7.5.2
-#### Magisk: v20.5-6cebe2c1
+#### Magisk: v20.5-fc5b5245
+
+- d382b00e: Accept all paths in FileProvider
+- ef9d077c: Update build.py
+- e4b20abf: Update gradle files
+- e9f0a101: Update stable release badges
+
+#### Most recent 20 previous commits:
 
 - c3968a26: Remove dynamic loading code
 - 9371515e: Disable animations in superuser fragment
 - a83e055b: Fix strings
-
-#### Most recent 20 previous commits:
-
 - 69076517: Updated flash screen so it's a fragment
 - fc2d0246: Added requesting navigation being hidden when showing alternative view
 - bb9c362b: Added back button for ModuleFragment when displaying filter
@@ -25,6 +29,3 @@
 - 48d417f9: Add symlink for backwards compatibility The native code has to run with an old verison of Magisk Manager, add this back so things will work properly.
 - df4db6bf: Added Dutch translation for stub
 - b8ef491b: Updated Dutch translation
-- ea1ebb8d: Polish translation - fix missing string
-- 91b6d285: scripts: add nand/mtd support to uninstaller
-- d7cd1b37: add missing flags
