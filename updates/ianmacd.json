@@ -16,7 +16,7 @@
     "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/Magisk-uninstaller-v20.5-2020032801-ianmacd.zip"
   },
   "stub": {
-    "versionCode": "",
+    "versionCode": "8",
     "link": "https://github.com/ianmacd/MagiskBuilds/raw/private/stub-release.apk"
   }
 }
