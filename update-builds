@@ -9,6 +9,7 @@ branch=private
 #
 zip=$( ls Magisk-v* | tail -n 1 )
 app=$( ls MagiskManager-v* | tail -n 1 )
+stub_app=stub-release.apk
 unin=$( ls Magisk-uninstaller-v* | tail -n 1 )
 snet=snet.apk
 json=updates/ianmacd.json
@@ -66,13 +67,13 @@ cat >$json <<EOF
   },
   "stub": {
     "versionCode": "$stub_v",
-    "link": "$repo/raw/$branch/stub-release.apk"
+    "link": "$repo/raw/$branch/$stub_app"
   }
 }
 EOF
 
 cp -p $build_dir/app/src/main/res/raw/notes.md . 
-git add $zip $app $unin $snet $json $note
+git add $zip $app $stub_app $unin $snet $json $note
 echo
 
 if [ $branch = master ]; then
