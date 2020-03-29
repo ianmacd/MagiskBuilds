@@ -1,7 +1,9 @@
-### Build: 2020032801
+### Build: 2020032901
 #### app: v7.5.2
-#### Magisk: v20.5-fc5b5245
+#### Magisk: v20.5-0ce9f86d
 
+- d05ed0e5: Manager: remove v from download names
+- a9eb4430: Ignore existing attributes in manifest
 - d382b00e: Accept all paths in FileProvider
 - ef9d077c: Update build.py
 - e4b20abf: Update gradle files
