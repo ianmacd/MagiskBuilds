@@ -1,11 +1,17 @@
-### Build: 2020033001
+### Build: 2020033002
 #### app: v7.5.2
-#### Magisk: v20.5-c1824c4a
+#### Magisk: v20.5-ea9d615c
 
-- a623a5b7: Set proper component name in FlashFragment
+- 06a1d084: Replace ellipsis with recommended characters
+- d510ead8: fix letters
+- 2968a155: Get rid of the final Java file in app
+- cba26eed: Move several stuffs out of shared
+- 23e74b27: Prevent showing empty screen in stealth mode
+- ef0277d1: Properly set themes for dialogs in stub
 
 #### Most recent 20 previous commits:
 
+- a623a5b7: Set proper component name in FlashFragment
 - be8479fd: French translation update
 - e97e6d46: Update Ukrainian strings
 - 75ec890d: module_permission_declined string
@@ -25,4 +31,3 @@
 - a83e055b: Fix strings
 - 69076517: Updated flash screen so it's a fragment
 - fc2d0246: Added requesting navigation being hidden when showing alternative view
-- bb9c362b: Added back button for ModuleFragment when displaying filter
