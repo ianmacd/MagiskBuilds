@@ -1,6 +1,10 @@
-### Build: 2020032902
+### Build: 2020033001
 #### app: v7.5.2
-#### Magisk: v20.5-ed2731b6
+#### Magisk: v20.5-c1824c4a
+
+- a623a5b7: Set proper component name in FlashFragment
+
+#### Most recent 20 previous commits:
 
 - be8479fd: French translation update
 - e97e6d46: Update Ukrainian strings
@@ -10,9 +14,6 @@
 - 1920a528: Added progressbar indicating content loading on modules screen
 - 6e14a727: Fixed modules screen not offering reboot when local modules change
 - ea855837: Fixed melting UI on pre A10 devices
-
-#### Most recent 20 previous commits:
-
 - d05ed0e5: Manager: remove v from download names
 - a9eb4430: Ignore existing attributes in manifest
 - d382b00e: Accept all paths in FileProvider
@@ -25,11 +26,3 @@
 - 69076517: Updated flash screen so it's a fragment
 - fc2d0246: Added requesting navigation being hidden when showing alternative view
 - bb9c362b: Added back button for ModuleFragment when displaying filter
-- 51402e68: Fixed log not displaying back button when alternative view is shown
-- 1b881322: Updated the app to use navigation components instead of custom solution
-- 922e36cf: Updated the width of bottom navigation
-- edff0946: Added log as primary fragment
-- aa72a080: core: clean up /data/adb/magisk.img, etc. as well
-- 2a93d1c6: Update shields.io URL for caching
-- 6b2f2371: Add live download counts
-- 375ab93e: Update logo.png
