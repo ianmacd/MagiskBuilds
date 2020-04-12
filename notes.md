@@ -1,6 +1,29 @@
-### Build: 2020040301
+### Build: 2020041201
 #### app: v7.5.2
-#### Magisk: v20.5-c60c3658
+#### Magisk: v20.5-e90a0a3e
+
+- 37d38b62: Fix strings
+- f9bb5171: Update RU strings
+- efe9b867: Add Hebrew Translation
+- d9cf33d1: Fixed shortcuts
+- ee3028e6: Updated layout of modules screen
+- d810e6c8: Fixed modules screen crashing on load
+- e0a28158: Preparation for dynamic tmpfs path
+- d739dcac: Remove dependency on magisk.hpp in libutils
+- cdd4cb8e: Update BusyBox to build on latest NDK
+- 93ef90cd: Fix FORTIFY crashes
+- e165a1e6: Use BusyBox standalone mode if available
+- 4066e5bf: Update Makefiles
+- 4729514a: Remove snet module from Magisk
+- 93aedcfe: Update all hardcode paths in app and script
+- 47d18bb8: Fix typo of boot methods
+- 61dafbe0: Fix LV for Boot Method C
+- 474325da: Add 'Android Booting Shenanigans' to docs
+- 9317401d: Update Windows instruction for Python
+- 67d746a6: Let build.py setup NDK
+- 2f1f68f1: Prepare compilation for NDK r21
+
+#### Most recent 20 previous commits:
 
 - 2742edd7: scripts: only show addon.d error once on failures
 - 834561a5: Content in dt_fstab is not null terminated in emulator
@@ -10,9 +33,6 @@
 - dbfde74c: Clean rootfs in switch_root
 - b28668e1: Prevent possible race condition
 - 5f1174de: Introduce new boot flow to handle SAR 2SI
-
-#### Most recent 20 previous commits:
-
 - 543ce937: Don't need to find system_dev
 - 5537b083: Move surequest out of legacy
 - 6b085474: Added setting resetting state on install screen
@@ -25,11 +45,3 @@
 - ef0277d1: Properly set themes for dialogs in stub
 - a623a5b7: Set proper component name in FlashFragment
 - be8479fd: French translation update
-- e97e6d46: Update Ukrainian strings
-- 75ec890d: module_permission_declined string
-- 871a9c29: Update strings.xml
-- a4f903d9: Update strings.xml
-- 1920a528: Added progressbar indicating content loading on modules screen
-- 6e14a727: Fixed modules screen not offering reboot when local modules change
-- ea855837: Fixed melting UI on pre A10 devices
-- d05ed0e5: Manager: remove v from download names
