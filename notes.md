@@ -1,12 +1,22 @@
-### Build: 2020041801
+### Build: 2020041901
 #### app: v7.5.2
-#### Magisk: v20.5-c9e53c3e
+#### Magisk: v20.5-6f236e0f
 
-- a73e7e9f: Introduce new module mount implementation
-- ab853e1f: Update dir traversal code
+- 7188462c: fix Magisk install on ODROID-N2/C4
+- f9ff8149: Update gradle files
+- dfbd1305: Android 11 support 🎉
+- c9255ab3: Remove legacy migration
+- 1e714af3: Support MagiskHide when /sbin does not exist
+- 4c959cd9: Support cases when /sbin does not exist
+- d959c357: Make cleaner mount info
+- 69a9d748: Support injecting magisk bins
+- dcf07ad8: Directly filter '.' and '..' in xreaddir
+- ed6cdb2e: Rename file
 
 #### Most recent 20 previous commits:
 
+- a73e7e9f: Introduce new module mount implementation
+- ab853e1f: Update dir traversal code
 - 37d38b62: Fix strings
 - f9bb5171: Update RU strings
 - efe9b867: Add Hebrew Translation
@@ -25,5 +35,3 @@
 - 61dafbe0: Fix LV for Boot Method C
 - 474325da: Add 'Android Booting Shenanigans' to docs
 - 9317401d: Update Windows instruction for Python
-- 67d746a6: Let build.py setup NDK
-- 2f1f68f1: Prepare compilation for NDK r21
