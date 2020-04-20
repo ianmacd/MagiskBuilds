@@ -1,12 +1,14 @@
-### Build: 2020041902
+### Build: 2020042001
 #### app: v7.5.2
-#### Magisk: v20.5-3312c603
+#### Magisk: v20.5-4ed1b2eb
 
-- 765d5d97: Small magiskinit cleanup
-- 43029f37: Cleanup our tracks
+- e219867c: Hijack another binary for 2nd stage
+- 6caba51e: RECOVERYMODE should not always be overridden on legacy SaR devices.
 
 #### Most recent 20 previous commits:
 
+- 765d5d97: Small magiskinit cleanup
+- 43029f37: Cleanup our tracks
 - 7188462c: fix Magisk install on ODROID-N2/C4
 - f9ff8149: Update gradle files
 - dfbd1305: Android 11 support 🎉
@@ -25,5 +27,3 @@
 - d9cf33d1: Fixed shortcuts
 - ee3028e6: Updated layout of modules screen
 - d810e6c8: Fixed modules screen crashing on load
-- e0a28158: Preparation for dynamic tmpfs path
-- d739dcac: Remove dependency on magisk.hpp in libutils
