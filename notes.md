@@ -1,7 +1,9 @@
-### Build: 2020042001
+### Build: 2020042002
 #### app: v7.5.2
-#### Magisk: v20.5-4ed1b2eb
+#### Magisk: v20.5-9fb91295
 
+- c94f9e1c: Use a binary that exists on all devices for hijacking
+- 68532fad: Update SAR detection method for Android 11
 - e219867c: Hijack another binary for 2nd stage
 - 6caba51e: RECOVERYMODE should not always be overridden on legacy SaR devices.
 
