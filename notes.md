@@ -1,14 +1,19 @@
-### Build: 2020042002
+### Build: 2020042101
 #### app: v7.5.2
-#### Magisk: v20.5-9fb91295
+#### Magisk: v20.5-d53807fa
+
+- 800b7f43: Bump min module Magisk version to v20.0
+- 8ca5a048: Support system_ext
+- 44b7a3c3: Only run bootsigner on Android 5.0+
+- 554ebe72: Skel dest could not exist
+- d7b87fcb: Add untrusted_app_29 for Android 11
+
+#### Most recent 20 previous commits:
 
 - c94f9e1c: Use a binary that exists on all devices for hijacking
 - 68532fad: Update SAR detection method for Android 11
 - e219867c: Hijack another binary for 2nd stage
 - 6caba51e: RECOVERYMODE should not always be overridden on legacy SaR devices.
-
-#### Most recent 20 previous commits:
-
 - 765d5d97: Small magiskinit cleanup
 - 43029f37: Cleanup our tracks
 - 7188462c: fix Magisk install on ODROID-N2/C4
@@ -25,7 +30,3 @@
 - ab853e1f: Update dir traversal code
 - 37d38b62: Fix strings
 - f9bb5171: Update RU strings
-- efe9b867: Add Hebrew Translation
-- d9cf33d1: Fixed shortcuts
-- ee3028e6: Updated layout of modules screen
-- d810e6c8: Fixed modules screen crashing on load
