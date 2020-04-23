@@ -1,15 +1,18 @@
-### Build: 2020042101
+### Build: 2020042301
 #### app: v7.5.2
-#### Magisk: v20.5-d53807fa
+#### Magisk: v20.5-b9f160db
+
+- 2468f5a6: Fix custom sepolicy patches
+- 945a52a9: Handle extremely rare edge case
+- 486b2c82: Disable kmsg rate limiting
+
+#### Most recent 20 previous commits:
 
 - 800b7f43: Bump min module Magisk version to v20.0
 - 8ca5a048: Support system_ext
 - 44b7a3c3: Only run bootsigner on Android 5.0+
 - 554ebe72: Skel dest could not exist
 - d7b87fcb: Add untrusted_app_29 for Android 11
-
-#### Most recent 20 previous commits:
-
 - c94f9e1c: Use a binary that exists on all devices for hijacking
 - 68532fad: Update SAR detection method for Android 11
 - e219867c: Hijack another binary for 2nd stage
@@ -25,8 +28,3 @@
 - d959c357: Make cleaner mount info
 - 69a9d748: Support injecting magisk bins
 - dcf07ad8: Directly filter '.' and '..' in xreaddir
-- ed6cdb2e: Rename file
-- a73e7e9f: Introduce new module mount implementation
-- ab853e1f: Update dir traversal code
-- 37d38b62: Fix strings
-- f9bb5171: Update RU strings
