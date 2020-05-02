@@ -1,13 +1,16 @@
-### Build: 2020043001
+### Build: 2020050201
 #### app: v7.5.2
-#### Magisk: v20.5-9f277965
+#### Magisk: v20.5-4e699190
+
+- a8d0936e: Update BusyBox
+- 4e349acb: Build libselinux without ANDROID defined
+- e51ffef8: RECOVERYMODE should not always be overridden on legacy SaR devices.
+
+#### Most recent 20 previous commits:
 
 - 947e3b06: Use template to get lambda for RAII
 - 5fd574a1: Fix --remove-modules command
 - 03c10538: scripts: fix persist out-of-space copying sepolicy.rule - bugged TWRPs were filling persist with recovery logs, so clean those as a potential workaround - abort module install if sepolicy.rule fails to copy, since 99% of the time the module wouldn't include it if it could function without it
-
-#### Most recent 20 previous commits:
-
 - c7ed0ef5: Fix SAR support for overlay.d
 - 2aede977: scripts: fix find_block false positives /dev/log/kernel and /dev/BOOT - try /dev/block first with full depth to catch all platform/soc variations to the by-name directory, and the new dynamic partition /dev/block/mapper - next try uevent for block devices as before - lastly try /dev with maxdepth 1 (immediate directory) to find /dev/bootimg, /dev/recovery, etc. while avoiding /dev/log/kernel - move bootimg higher in the list than boot so /dev/bootimg gets found first and avoids /dev/BOOT - recovery_a/_b now also exists - minor touch-ups for readability and consistency
 - 9b8a5e9b: scripts: add author name back to module install banner print
@@ -25,6 +28,3 @@
 - 68532fad: Update SAR detection method for Android 11
 - e219867c: Hijack another binary for 2nd stage
 - 6caba51e: RECOVERYMODE should not always be overridden on legacy SaR devices.
-- 765d5d97: Small magiskinit cleanup
-- 43029f37: Cleanup our tracks
-- 7188462c: fix Magisk install on ODROID-N2/C4
