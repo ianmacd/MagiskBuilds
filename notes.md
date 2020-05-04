@@ -1,13 +1,17 @@
-### Build: 2020050201
+### Build: 2020050401
 #### app: v7.5.2
-#### Magisk: v20.5-4e699190
+#### Magisk: v20.5-b7ac6ad5
 
-- a8d0936e: Update BusyBox
-- 4e349acb: Build libselinux without ANDROID defined
-- e51ffef8: RECOVERYMODE should not always be overridden on legacy SaR devices.
+- dbf8c412: Force init to load fstab from file in 2SI
+- 8c4fd759: Strip Huawei specific logic
+- 23dc19ad: scripts: don't abort if /vendor fails to mount
+- 0c99c4d9: More complete support for fstab in dt
+- 8ab04533: Workaround realpath FORTIFY crashes
 
 #### Most recent 20 previous commits:
 
+- a8d0936e: Update BusyBox
+- 4e349acb: Build libselinux without ANDROID defined
 - 947e3b06: Use template to get lambda for RAII
 - 5fd574a1: Fix --remove-modules command
 - 03c10538: scripts: fix persist out-of-space copying sepolicy.rule - bugged TWRPs were filling persist with recovery logs, so clean those as a potential workaround - abort module install if sepolicy.rule fails to copy, since 99% of the time the module wouldn't include it if it could function without it
@@ -26,5 +30,3 @@
 - d7b87fcb: Add untrusted_app_29 for Android 11
 - c94f9e1c: Use a binary that exists on all devices for hijacking
 - 68532fad: Update SAR detection method for Android 11
-- e219867c: Hijack another binary for 2nd stage
-- 6caba51e: RECOVERYMODE should not always be overridden on legacy SaR devices.
