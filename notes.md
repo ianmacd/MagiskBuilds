@@ -1,15 +1,18 @@
-### Build: 2020050401
+### Build: 2020050501
 #### app: v7.5.2
-#### Magisk: v20.5-b7ac6ad5
+#### Magisk: v20.5-f49431dd
+
+- 87de0e7a: Force remove AVB for 2SI since it may bootloop some devices
+- 85755e30: Tone down our DTB patching
+- 02dc1172: Revert DTB patches to in-place binary patches
+
+#### Most recent 20 previous commits:
 
 - dbf8c412: Force init to load fstab from file in 2SI
 - 8c4fd759: Strip Huawei specific logic
 - 23dc19ad: scripts: don't abort if /vendor fails to mount
 - 0c99c4d9: More complete support for fstab in dt
 - 8ab04533: Workaround realpath FORTIFY crashes
-
-#### Most recent 20 previous commits:
-
 - a8d0936e: Update BusyBox
 - 4e349acb: Build libselinux without ANDROID defined
 - 947e3b06: Use template to get lambda for RAII
@@ -25,8 +28,3 @@
 - 486b2c82: Disable kmsg rate limiting
 - 800b7f43: Bump min module Magisk version to v20.0
 - 8ca5a048: Support system_ext
-- 44b7a3c3: Only run bootsigner on Android 5.0+
-- 554ebe72: Skel dest could not exist
-- d7b87fcb: Add untrusted_app_29 for Android 11
-- c94f9e1c: Use a binary that exists on all devices for hijacking
-- 68532fad: Update SAR detection method for Android 11
