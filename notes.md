@@ -1,13 +1,15 @@
-### Build: 2020050501
+### Build: 2020050701
 #### app: v7.5.2
-#### Magisk: v20.5-f49431dd
+#### Magisk: v20.5-6522443c
+
+- aa8b2310: Modernize resetprop with fancy C++
+- c113f854: Fix overlay.d on SAR again
+
+#### Most recent 20 previous commits:
 
 - 87de0e7a: Force remove AVB for 2SI since it may bootloop some devices
 - 85755e30: Tone down our DTB patching
 - 02dc1172: Revert DTB patches to in-place binary patches
-
-#### Most recent 20 previous commits:
-
 - dbf8c412: Force init to load fstab from file in 2SI
 - 8c4fd759: Strip Huawei specific logic
 - 23dc19ad: scripts: don't abort if /vendor fails to mount
@@ -25,6 +27,3 @@
 - 15f15510: Rewrite skel_node mounting and construction logic
 - 2468f5a6: Fix custom sepolicy patches
 - 945a52a9: Handle extremely rare edge case
-- 486b2c82: Disable kmsg rate limiting
-- 800b7f43: Bump min module Magisk version to v20.0
-- 8ca5a048: Support system_ext
