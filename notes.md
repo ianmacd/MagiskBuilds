@@ -1,13 +1,17 @@
-### Build: 2020050901
+### Build: 2020051701
 #### app: v7.5.2
-#### Magisk: v20.5-c96c7c09
+#### Magisk: v20.5-3b8640c1
+
+- 1bcef387: Fix German translation
+- aac6ad73: Fix collect modules
+- 122b4d66: Move Android logging out of libutils
+- 0f8f4e36: Update collect log logic
+
+#### Most recent 20 previous commits:
 
 - 3733b589: native: fix slower build on non-Windows platforms
 - 6a2e781d: magiskhide: add vendor.* props
 - c6569ce0: Fix service scripts
-
-#### Most recent 20 previous commits:
-
 - a62bdc58: Use env variables to enable standalone mode
 - 91200949: Revert accidental build script change
 - a5d7c41d: Support Safe Mode detection
@@ -25,6 +29,3 @@
 - a8d0936e: Update BusyBox
 - 4e349acb: Build libselinux without ANDROID defined
 - 947e3b06: Use template to get lambda for RAII
-- 5fd574a1: Fix --remove-modules command
-- 03c10538: scripts: fix persist out-of-space copying sepolicy.rule - bugged TWRPs were filling persist with recovery logs, so clean those as a potential workaround - abort module install if sepolicy.rule fails to copy, since 99% of the time the module wouldn't include it if it could function without it
-- c7ed0ef5: Fix SAR support for overlay.d
