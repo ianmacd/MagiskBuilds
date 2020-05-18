@@ -1,6 +1,17 @@
-### Build: 2020051801
+### Build: 2020051802
 #### app: v7.5.2
-#### Magisk: v20.5-3c3ed6d0
+#### Magisk: v20.5-0ef6c860
+
+- 99ef2062: Remove unused code
+- 4497e0aa: Don't expose module_list
+- c3e045e3: Use daemon state to determine late prop hiding
+- 501d3e6c: Maintain global daemon status
+- b27b9c1d: Minor code changes
+- f7d3d1ee: Increase post-fs-data mode to 40 secs
+- 0d72a4c8: Fix compile error
+- dbdb0a25: Move late props to boot complete
+
+#### Most recent 20 previous commits:
 
 - 18a09703: Updated Georgian translation
 - bc6a14d3: Remove property ro.build.selinux
@@ -10,9 +21,6 @@
 - aac6ad73: Fix collect modules
 - 122b4d66: Move Android logging out of libutils
 - 0f8f4e36: Update collect log logic
-
-#### Most recent 20 previous commits:
-
 - 3733b589: native: fix slower build on non-Windows platforms
 - 6a2e781d: magiskhide: add vendor.* props
 - c6569ce0: Fix service scripts
@@ -25,11 +33,3 @@
 - 87de0e7a: Force remove AVB for 2SI since it may bootloop some devices
 - 85755e30: Tone down our DTB patching
 - 02dc1172: Revert DTB patches to in-place binary patches
-- dbf8c412: Force init to load fstab from file in 2SI
-- 8c4fd759: Strip Huawei specific logic
-- 23dc19ad: scripts: don't abort if /vendor fails to mount
-- 0c99c4d9: More complete support for fstab in dt
-- 8ab04533: Workaround realpath FORTIFY crashes
-- a8d0936e: Update BusyBox
-- 4e349acb: Build libselinux without ANDROID defined
-- 947e3b06: Use template to get lambda for RAII
