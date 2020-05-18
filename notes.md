@@ -1,7 +1,11 @@
-### Build: 2020051701
+### Build: 2020051801
 #### app: v7.5.2
-#### Magisk: v20.5-3b8640c1
+#### Magisk: v20.5-3c3ed6d0
 
+- 18a09703: Updated Georgian translation
+- bc6a14d3: Remove property ro.build.selinux
+- 97db49a5: Move vendor property manipulation to late start
+- eca21686: Guard magiskhide state with mutexes
 - 1bcef387: Fix German translation
 - aac6ad73: Fix collect modules
 - 122b4d66: Move Android logging out of libutils
