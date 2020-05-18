@@ -9,7 +9,7 @@ patches to fix bugs and/or provide tiny enhancements.
 To use this custom channel, configure the following URL in your Magisk Manager
 settings:
 
-https://raw.githubusercontent.com/ianmacd/MagiskBuilds/master/updates/ianmacd.json
+https://raw.githubusercontent.com/ianmacd/MagiskBuilds/privates/updates/ianmacd.json
 
 Alternatively, this shortened URL will also work:
 
