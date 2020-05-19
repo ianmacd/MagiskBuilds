@@ -1,7 +1,8 @@
-### Build: 2020051901
+### Build: 2020051902
 #### app: v7.5.2
-#### Magisk: v20.5-986d8a1d
+#### Magisk: v20.5-38e39f3d
 
+- e02e46d0: Detect volume down key combo for safe mode
 - 3c04dab4: magiskhide: fix late_prop_key setprop, reorganize props slightly
 - fc1844b4: Update policy for handling /data/adb
 
