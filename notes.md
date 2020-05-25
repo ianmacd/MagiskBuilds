@@ -1,13 +1,21 @@
-### Build: 2020051902
+### Build: 2020052501
 #### app: v7.5.2
-#### Magisk: v20.5-38e39f3d
+#### Magisk: v20.5-73d9457b
+
+- cd6eca1d: Optimize match-all-type rules
+- 951273f8: Cleanup some implementations
+- 51eeb89f: Allow consecutive points
+- 0efa73d9: Update selinux libs
+- 63512b39: Update NDK to r21b
+- f392ade7: Rewrite sepolicy.c in C++
+- 0236ab88: Several statement parsing improvements
+- d4baae41: Modernize magiskpolicy
+
+#### Most recent 20 previous commits:
 
 - e02e46d0: Detect volume down key combo for safe mode
 - 3c04dab4: magiskhide: fix late_prop_key setprop, reorganize props slightly
 - fc1844b4: Update policy for handling /data/adb
-
-#### Most recent 20 previous commits:
-
 - 99ef2062: Remove unused code
 - 4497e0aa: Don't expose module_list
 - c3e045e3: Use daemon state to determine late prop hiding
@@ -25,6 +33,3 @@
 - 122b4d66: Move Android logging out of libutils
 - 0f8f4e36: Update collect log logic
 - 3733b589: native: fix slower build on non-Windows platforms
-- 6a2e781d: magiskhide: add vendor.* props
-- c6569ce0: Fix service scripts
-- a62bdc58: Use env variables to enable standalone mode
