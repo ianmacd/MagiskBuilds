@@ -1,12 +1,22 @@
-### Build: 2020052502
+### Build: 2020053101
 #### app: v7.5.2
-#### Magisk: v20.5-a9581a3e
+#### Magisk: v20.5-36e243ab
 
-- 599ee57d: Simplify sepolicy rules
-- 4499cebc: Support new sepolicy rules
+- 02b2290b: Correct path of x86 libraries
+- f8a814a5: Fix RU strings
+- 4c4338cc: Adapt to AGP 4.0
+- 5675a1ae: app/stub: values-es: update to provide more consistency.
+- 0952224c: Update JA strings
+- 4e26c102: Fix CA strings
+- f3e82b9e: Add DoH using cloudflare-dns
+- e50295d3: magiskboot: add support for lz4 compressed dt (extra)
+- fde78be2: Update Android Studio
+- c071ac89: Remove unused code
 
 #### Most recent 20 previous commits:
 
+- 599ee57d: Simplify sepolicy rules
+- 4499cebc: Support new sepolicy rules
 - cd6eca1d: Optimize match-all-type rules
 - 951273f8: Cleanup some implementations
 - 51eeb89f: Allow consecutive points
@@ -25,5 +35,3 @@
 - b27b9c1d: Minor code changes
 - f7d3d1ee: Increase post-fs-data mode to 40 secs
 - 0d72a4c8: Fix compile error
-- dbdb0a25: Move late props to boot complete
-- 18a09703: Updated Georgian translation
