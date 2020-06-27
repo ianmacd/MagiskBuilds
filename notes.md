@@ -1,7 +1,9 @@
-### Build: 2020062501
+### Build: 2020062701
 #### app: v7.5.2
-#### Magisk: v20.5-033eff5b
+#### Magisk: v20.5-d07fa671
 
+- 4b8e92f0: compile options should be set after evaulation process
+- fc6ef7dd: Show magisk update notification only when magisk is installed
 - c881fd49: Updated Arabic Translation
 - 4bcc2b2f: Added bottom padding to hide screen
 - 6150055a: Update BusyBox
