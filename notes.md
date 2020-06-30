@@ -1,15 +1,24 @@
-### Build: 2020062701
+### Build: 2020063001
 #### app: v7.5.2
-#### Magisk: v20.5-d07fa671
+#### Magisk: v20.5-023f47b1
+
+- a0b47f3c: Precompute TextView in I/O thread for performance
+- 89e9e7c1: Simplify UI code for Magisk logs
+- ddc2f317: Update dependencies
+- 867bab85: Restart activity with fresh intent
+- b1e0c5ff: Export MAGISKTMP so it survives exec
+- 6dbd9bfb: Place pthread_mutex_init() before init_list()
+- 3c783448: Refactor version handling
+- 594f2688: Update RU strings
+- 93d57164: Disable Volumes keys on flash - Thank Diareuse for helping me
+
+#### Most recent 20 previous commits:
 
 - 4b8e92f0: compile options should be set after evaulation process
 - fc6ef7dd: Show magisk update notification only when magisk is installed
 - c881fd49: Updated Arabic Translation
 - 4bcc2b2f: Added bottom padding to hide screen
 - 6150055a: Update BusyBox
-
-#### Most recent 20 previous commits:
-
 - f56b9a0c: Revert "Fix build"
 - 95c5f9b8: Revert "Update gradle files"
 - 23a33b43: Remove core only mode
@@ -25,8 +34,3 @@
 - f79a40a6: scripts: uninstaller fixes
 - 43146b83: Update su request process
 - b71b4bd4: Fix colors in su request dialog
-- 44895a86: Fix compilation of single applets
-- eecb66f4: Create ForegroundTracker
-- e7f1c031: Cleanup code for su request
-- 56602cb9: Update gradle files
-- 1e2f776b: Move logging.hpp
