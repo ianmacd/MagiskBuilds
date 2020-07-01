@@ -1,6 +1,12 @@
-### Build: 2020063001
+### Build: 2020070101
 #### app: v7.5.2
-#### Magisk: v20.5-023f47b1
+#### Magisk: v20.5-878deced
+
+- 73203a55: Use fancy NestedScrollView for Magisk logs
+- 397f7326: Update SafetyNet UI to show evalType
+- 4bbd7989: Update snet extension
+
+#### Most recent 20 previous commits:
 
 - a0b47f3c: Precompute TextView in I/O thread for performance
 - 89e9e7c1: Simplify UI code for Magisk logs
@@ -11,9 +17,6 @@
 - 3c783448: Refactor version handling
 - 594f2688: Update RU strings
 - 93d57164: Disable Volumes keys on flash - Thank Diareuse for helping me
-
-#### Most recent 20 previous commits:
-
 - 4b8e92f0: compile options should be set after evaulation process
 - fc6ef7dd: Show magisk update notification only when magisk is installed
 - c881fd49: Updated Arabic Translation
@@ -25,12 +28,3 @@
 - e02386a6: Move install module button to the top
 - 099e7038: Build compatible bytecode with newer JDKs
 - 1ededc63: l10n: Update Chinese Simplified translations
-- 0850bca9: Update README
-- 6d2fd480: Upgrade gradle wrapper
-- ddf0c379: Fix build
-- 45b5e899: Remove canary debug channel
-- a748d529: app: l10n: Update Indonesian translations
-- f5131fae: Update German translation
-- f79a40a6: scripts: uninstaller fixes
-- 43146b83: Update su request process
-- b71b4bd4: Fix colors in su request dialog
