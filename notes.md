@@ -1,13 +1,24 @@
-### Build: 2020070101
+### Build: 2020070401
 #### app: v7.5.2
-#### Magisk: v20.5-878deced
+#### Magisk: v20.5-a6ac5502
+
+- 7922f652: Welcome Gradle Kotlin DSL
+- 67f79354: Restructure project
+- 9348c5ba: Fix build script
+- 0f7caa66: Remove usage of grid layouts
+- bd14994e: Update Polish translation
+- 08818e85: Remove force_pm_install
+- 706eba32: Add release notes to the install fragment
+- f6a2b1c8: Minor gradle script changes
+- c2e66220: Update README
+- 53904b06: Use gradle magic to optimize resources
+- cef14d45: Fix release build XLint error for translations
+
+#### Most recent 20 previous commits:
 
 - 73203a55: Use fancy NestedScrollView for Magisk logs
 - 397f7326: Update SafetyNet UI to show evalType
 - 4bbd7989: Update snet extension
-
-#### Most recent 20 previous commits:
-
 - a0b47f3c: Precompute TextView in I/O thread for performance
 - 89e9e7c1: Simplify UI code for Magisk logs
 - ddc2f317: Update dependencies
@@ -25,6 +36,3 @@
 - f56b9a0c: Revert "Fix build"
 - 95c5f9b8: Revert "Update gradle files"
 - 23a33b43: Remove core only mode
-- e02386a6: Move install module button to the top
-- 099e7038: Build compatible bytecode with newer JDKs
-- 1ededc63: l10n: Update Chinese Simplified translations
