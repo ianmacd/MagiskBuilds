@@ -1,6 +1,13 @@
-### Build: 2020070401
+### Build: 2020070701
 #### app: v7.5.2
-#### Magisk: v20.5-a6ac5502
+#### Magisk: v20.5-c2664019
+
+- 820427e9: Have some fun with Kotlin Coroutines
+- 89e11c9c: Minor changes in flash viewmodel
+- 05cf53fe: Merge files
+- 97b72a59: Revert to old SElinux rules on pre 8.0 devices
+
+#### Most recent 20 previous commits:
 
 - 7922f652: Welcome Gradle Kotlin DSL
 - 67f79354: Restructure project
@@ -13,9 +20,6 @@
 - c2e66220: Update README
 - 53904b06: Use gradle magic to optimize resources
 - cef14d45: Fix release build XLint error for translations
-
-#### Most recent 20 previous commits:
-
 - 73203a55: Use fancy NestedScrollView for Magisk logs
 - 397f7326: Update SafetyNet UI to show evalType
 - 4bbd7989: Update snet extension
@@ -25,14 +29,3 @@
 - 867bab85: Restart activity with fresh intent
 - b1e0c5ff: Export MAGISKTMP so it survives exec
 - 6dbd9bfb: Place pthread_mutex_init() before init_list()
-- 3c783448: Refactor version handling
-- 594f2688: Update RU strings
-- 93d57164: Disable Volumes keys on flash - Thank Diareuse for helping me
-- 4b8e92f0: compile options should be set after evaulation process
-- fc6ef7dd: Show magisk update notification only when magisk is installed
-- c881fd49: Updated Arabic Translation
-- 4bcc2b2f: Added bottom padding to hide screen
-- 6150055a: Update BusyBox
-- f56b9a0c: Revert "Fix build"
-- 95c5f9b8: Revert "Update gradle files"
-- 23a33b43: Remove core only mode
