@@ -1,6 +1,11 @@
-### Build: 2020071101
+### Build: 2020071301
 #### app: v7.5.2
-#### Magisk: v20.5-91b099bb
+#### Magisk: v20.5-92980155
+
+- 45fabf8e: Update SettingsItems
+- 2c12fe6e: More efficient databinding
+
+#### Most recent 20 previous commits:
 
 - b41b2283: Rename package
 - e8e7cd50: Simply redirect isConnected ObservableField
@@ -19,26 +24,6 @@
 - 86db0cd2: Load installed modules with coroutine
 - ae6dd50c: Fix RepoUpdater force refresh bug
 - 77032ece: Load repos with coroutine
-
-#### Most recent 20 previous commits:
-
 - 820427e9: Have some fun with Kotlin Coroutines
 - 89e11c9c: Minor changes in flash viewmodel
 - 05cf53fe: Merge files
-- 97b72a59: Revert to old SElinux rules on pre 8.0 devices
-- 7922f652: Welcome Gradle Kotlin DSL
-- 67f79354: Restructure project
-- 9348c5ba: Fix build script
-- 0f7caa66: Remove usage of grid layouts
-- bd14994e: Update Polish translation
-- 08818e85: Remove force_pm_install
-- 706eba32: Add release notes to the install fragment
-- f6a2b1c8: Minor gradle script changes
-- c2e66220: Update README
-- 53904b06: Use gradle magic to optimize resources
-- cef14d45: Fix release build XLint error for translations
-- 73203a55: Use fancy NestedScrollView for Magisk logs
-- 397f7326: Update SafetyNet UI to show evalType
-- 4bbd7989: Update snet extension
-- a0b47f3c: Precompute TextView in I/O thread for performance
-- 89e9e7c1: Simplify UI code for Magisk logs
