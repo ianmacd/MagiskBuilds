@@ -1,7 +1,10 @@
-### Build: 2020071301
+### Build: 2020071501
 #### app: v7.5.2
-#### Magisk: v20.5-92980155
+#### Magisk: v20.5-a3df7829
 
+- ba31c6b6: Use coroutines instead of raw executors
+- cad189d2: Remove unnecessary indirection
+- 7cf3da1b: Update implementation to use new methods
 - 45fabf8e: Update SettingsItems
 - 2c12fe6e: More efficient databinding
 
