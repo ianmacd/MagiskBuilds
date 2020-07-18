@@ -1,15 +1,25 @@
-### Build: 2020071501
+### Build: 2020071801
 #### app: v7.5.2
-#### Magisk: v20.5-a3df7829
+#### Magisk: v20.5-bc1c0629
+
+- 07f712a1: Always show hidden apps
+- c7044b0d: Remember show system app toggle in MagiskHide list
+- 15866cfb: Fix incorrect command
+- 4c257062: Make SettingsItems make much more sense
+- 113eec59: Request storage rw for saving logs
+- f7abc03d: Move copy util_functions.sh from Python scripts to gradle
+- ef3f188a: bel
+- dd62fe89: Use CallbackList for collecting STDOUT in flash screen
+- ec2d7d77: Reduce usage of ObservableField
+- 6c6368fd: Reduce usage of delegation
+
+#### Most recent 20 previous commits:
 
 - ba31c6b6: Use coroutines instead of raw executors
 - cad189d2: Remove unnecessary indirection
 - 7cf3da1b: Update implementation to use new methods
 - 45fabf8e: Update SettingsItems
 - 2c12fe6e: More efficient databinding
-
-#### Most recent 20 previous commits:
-
 - b41b2283: Rename package
 - e8e7cd50: Simply redirect isConnected ObservableField
 - 78734339: Remove RxJava as dependency
@@ -25,8 +35,3 @@
 - dc8f0f6f: Bug fixes in modules fragment
 - 01a43b03: De-Rx ModuleViewModel
 - 86db0cd2: Load installed modules with coroutine
-- ae6dd50c: Fix RepoUpdater force refresh bug
-- 77032ece: Load repos with coroutine
-- 820427e9: Have some fun with Kotlin Coroutines
-- 89e11c9c: Minor changes in flash viewmodel
-- 05cf53fe: Merge files
