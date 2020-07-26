@@ -1,13 +1,17 @@
-### Build: 2020072101
+### Build: 2020072601
 #### app: v7.5.2
-#### Magisk: v20.5-2378ff0e
+#### Magisk: v20.5-c5806424
+
+- 0ed524f1: Test for NVIDIA/Tegra partition naming scheme first
+- aed3ab99: Update libsu
+- 5347cedf: Disable Jetifier
+- 5b28a713: Move functions around
+
+#### Most recent 20 previous commits:
 
 - f1fb7404: Catch exceptions when loading remote modules
 - fc67c019: Workaround bug in AOSP code
 - 2f02f9a5: Update libsu
-
-#### Most recent 20 previous commits:
-
 - 07f712a1: Always show hidden apps
 - c7044b0d: Remember show system app toggle in MagiskHide list
 - 15866cfb: Fix incorrect command
@@ -25,6 +29,3 @@
 - 2c12fe6e: More efficient databinding
 - b41b2283: Rename package
 - e8e7cd50: Simply redirect isConnected ObservableField
-- 78734339: Remove RxJava as dependency
-- 52d19d3e: Roll our own NetworkObserver
-- 6348d0a6: Remove more code using RxJava
