@@ -1,14 +1,21 @@
-### Build: 2020072601
+### Build: 2020080901
 #### app: v7.5.2
-#### Magisk: v20.5-c5806424
+#### Magisk: v20.5-c09e77be
+
+- 1276c28e: Update strings.xml
+- e458215f: Let isolation namespace base on app namespace
+- fee4031d: Keep disable file when module update
+- 0835ff88: Update zipsigner version
+- 2e95d9f0: Update to APK Signature Scheme v2
+- fe238839: Update dependencies
+- 7fc9b908: Update Android 11 emulator support
+
+#### Most recent 20 previous commits:
 
 - 0ed524f1: Test for NVIDIA/Tegra partition naming scheme first
 - aed3ab99: Update libsu
 - 5347cedf: Disable Jetifier
 - 5b28a713: Move functions around
-
-#### Most recent 20 previous commits:
-
 - f1fb7404: Catch exceptions when loading remote modules
 - fc67c019: Workaround bug in AOSP code
 - 2f02f9a5: Update libsu
@@ -25,7 +32,3 @@
 - ba31c6b6: Use coroutines instead of raw executors
 - cad189d2: Remove unnecessary indirection
 - 7cf3da1b: Update implementation to use new methods
-- 45fabf8e: Update SettingsItems
-- 2c12fe6e: More efficient databinding
-- b41b2283: Rename package
-- e8e7cd50: Simply redirect isConnected ObservableField
