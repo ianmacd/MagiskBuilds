@@ -25,7 +25,7 @@ md5=$( md5sum $zip | cut -d' ' -f 1 )
 snet_v=$( sed -rne 's/^.*versionCode ([0-9]+).*$/\1/p' $build_dir/snet/build.gradle )
 #stub_v=$( sed -rne 's/^.*int\s+STUB_VERSION\s+=\s+([0-9]+).*$/\1/p' $build_dir/shared/src/main/java/com/topjohnwu/magisk/DynAPK.java )
 #stub_v=$( sed -rne 's/^.*int\s+STUB_VERSION\s+=\s+([0-9]+).*$/\1/p' $build_dir/stub/src/main/java/com/topjohnwu/magisk/obfuscate/Mapping.java )
-stub_v=$( wget -qO - https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/release.json | sed -rne '/"stub":/{N;s/^.+([0-9]+).+$/\1/p}' )
+stub_v=$( wget -qO - https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/debug.json | sed -rne '/"stub":/{N;s/^.+([0-9]+).+$/\1/p}' )
 
 if [ "$1" = -d ]; then
   echo $zip
