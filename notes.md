@@ -1,6 +1,21 @@
-### Build: 2020081201
+### Build: 2020081601
 #### app: v7.5.2
-#### Magisk: v20.5-259b9f1d
+#### Magisk: v20.5-93c48cf9
+
+- 7f225b39: Minor MarkwonImagePlugin updates
+- 72e7605f: 更新繁體中文字串
+- a4c1ddd9: Use uid 2000 to install patched apk
+- ddd51311: Update Romanian
+- e33d623d: Update dependencies
+- eec19ba9: Update French translation
+- 413b3f39: Update strings.xml
+- 88cee121: Update RU strings
+- cf25fa8e: Update build.gradle
+- 3f053b85: Minor code changes
+- 79aa261c: Fixed manager beginning to hide immediately on field change
+- ac2a9da4: Fix Markdown rendering
+
+#### Most recent 20 previous commits:
 
 - d8b1d798: Fixed first title being partially obscured by toolbar
 - feb0f4b7: Fix MagiskDialog
@@ -10,9 +25,6 @@
 - 36a70e99: Remote -> Online
 - 537ae1a3: Cleanup setting items
 - 87b6bf2c: Remove strip in settings item
-
-#### Most recent 20 previous commits:
-
 - 9df6b061: Update MagiskHide list
 - c7e30ac6: Update superuser list
 - f5e54794: Do not toggle when clicking cards
@@ -25,11 +37,3 @@
 - 11222c89: Update SafetyNet icon
 - 893a8ec8: Strip out most StaggeredGridLayoutManager in code
 - da2b00de: Several home screen changes
-- 1276c28e: Update strings.xml
-- e458215f: Let isolation namespace base on app namespace
-- fee4031d: Keep disable file when module update
-- 0835ff88: Update zipsigner version
-- 2e95d9f0: Update to APK Signature Scheme v2
-- fe238839: Update dependencies
-- 7fc9b908: Update Android 11 emulator support
-- 0ed524f1: Test for NVIDIA/Tegra partition naming scheme first
