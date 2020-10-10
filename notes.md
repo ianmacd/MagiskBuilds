@@ -1,6 +1,172 @@
-### Build: 2020081601
-#### app: v7.5.2
-#### Magisk: v20.5-93c48cf9
+### Build: 2020101001
+#### app: v8.0.3
+#### Magisk: v21.1-3c0c7a45
+
+- 04995881: Support androidboot.fstab_suffix cmdline flag
+- d4d837a5: Update docs and README
+- fbcbb201: Update app changelog
+- 0914700f: Fix string resources
+- eeced2fb: Only care about the main process when not expanded
+- 6509e3d4: Use ProgressDialog when restoring images
+- 31705260: Translation: Update and improve Indonesian strings
+- 5538f716: Update PT-BR translation
+- dcb9e4cd: Update zh-rCN translation
+- d9382f59: Fix logical error
+- 403a0c77: Fix typo
+- f0f1cdc5: Disable LoggingInterceptor
+- 4e272b70: Download GitHub files through CDN
+- 8dc62a02: Update docs and README
+- 9225b475: Tidy up network services
+- d462873e: Prevent UI loop on low memory device
+- fc19b502: Cleanup ActivityResult callbacks
+- 333fe6da: Update catalan
+- 75fcda9f: Estonian update
+- 44ba2a99: Update Polish translation
+- 2fceb1ad: Improve accuracy and correctness of Italian translation
+- bacb5fa4: Truncate existing file when openOutputStream
+- 67f8dc49: Properly patch vbmeta.img
+- 3e4caabe: Update FAQ
+- dcd5183b: Fix two typos in v21.0 release notes
+- d80c6b42: Update README
+- 64effe93: Add v21.0 release notes
+- 96dd24e9: Add changelogs and release notes
+- fbb4f85e: Update documentation
+- 716f0684: Use GitHub pages URLs for public channel JSONs
+- 241f2656: Prepare for public release
+- e973d495: Fix Korean translation typo
+- c3bf9a09: Update korean translation
+- abfc28db: Update Romanian
+- 8b5652ce: Skip image padding on Pixel C
+- d6dbab53: Update Slovak translation
+- 46de1ed9: Better handling of data encryption
+- 9bebe07d: Better network connection observing
+- ee4db431: Update proguard rules
+- efac2209: Fix strings
+- 31026b43: Update strings.xml
+- bc3fbe09: Update several colors in themes
+- 7ac55068: Catch ActivityNotFoundException
+- 6abd9aa8: Add new --install-module command
+- c91ebfbc: Pad images to original sizes with zero
+- 2f232fc6: Support modern Samsung AP.tar patching
+- 41f5c8d9: Magisk Manager always have to be upgraded first
+- 4fd04e62: Remove compressed ramdisk support
+- 63a9a7d6: Fixed bottom bar not hiding on device without root
+- a63d6c03: Update dependencies
+- fd552e68: Don't hide app with uid < 10000
+- de4e26b4: Allow download modules when Magisk is not installed
+- fa3865e9: Check command result
+- a6950b8a: Add failed state
+- 8df96ff6: Fix string
+- 8b29267a: Update RU strings
+- 0ef92a48: Hide OTA option on Pixel devices
+- 85bef8fa: Fix install fragment changelog
+- ca9f9fee: Update device state detection
+- b59e05c6: Added a check against view being initialized in its behavior
+- 3c0630bf: Added forced checks on view being attached to window before performing hiding on it
+- bf84dd65: Added hiding bottom bar when magisk is not active
+- f575155a: Fix focus on main elements in Modern UI
+- bd240ba4: Update Indonesian translations
+- 106a2bb7: 更新繁體字串
+- 82bbbe05: Update French translation
+- 9956dc09: Update Slovak translation
+- fc766738: Black splash screen background for dark theme
+- 17b5291b: Fix Android 8.0 selinux rules
+- 9908dfd7: Hide MagiskHide entry when disabled
+- 2dbaf959: Remove strokes from most cards
+- 9a16ab1b: Always show install button
+- 9e5cb6cb: Proper way to setup attr colors
+- 8c19654d: Update zh-rCN translation
+- d5a7a75d: Set android:windowContentOverlay to null so that there will be not "shadow" on pre-21
+- 851b6760: Remove custom fonts
+- 765b5128: Add settings to disable DoH
+- 8a338de6: Hide MagiskHide pre Kitkat
+- 8a61ae62: Disable DoH upon failure
+- 60e1e07e: Proper SafetyNet UI databinding
+- e51a3dac: Support theme switching pre SDK 21
+- 9a8a27db: Do not access color attributes in background
+- 2eb00187: Code cleanup
+- b510dc51: Fix su request auto response
+- d7f7508f: Move setContentView out of onCreate
+- e66b0bf3: Little French translation update
+- 0555b73a: Update strings.xml
+- 877a297d: Update strings.xml
+- 49559ec0: try root if adb install fail
+- 30e45f86: Remove unnecessary workaround
+- 434efec8: Use FIFO for su request communication
+- 5022f00a: Cleanup homescreen
+- 8aac373c: Fix network status detection
+- c3586fe0: Upstream external/selinux
+- 11f254e5: Fix SELinux support for Android 8.0 - 10
+- c61ec246: Rename function to be more descriptive
+- fd5ad91d: Proper 2SI detection
+- 5c4c391f: Fix typo causing rootfs device bootloops
+- 4dacffd7: Fix some issues with selinux rules
+- 61599059: Fix typo for SAR first stage init
+- f32a2991: Properly detect 2SI init
+- b73d5753: Minor code cleanups
+- 2eee335b: Track more sepolicy cil files.
+- 013a2e13: Minor code changes
+- fbaf2bde: Patch AndroidManifest.xml properly
+- 38a34a7e: Add persian language
+- 70174e09: Optimize network status display
+- 0333e82e: Fix string
+- 36a8839c: Update strings.xml
+- d0ed6e7f: Update spanish
+- 72dfbf5e: 更新繁體中文字串
+- 114a3c03: Some minor UI tweaks
+- 782adc9a: Cleanup some styles
+- e0642b01: Update zh-rCN translation
+- 6bd40066: Rename method
+- 01efe7a4: 100% functional manager self upgrade
+- 7e133b0c: UI tweaks for pre API 21
+- fd808bd5: Use the correct handler
+- b4e8860e: Only make navbar and status bar transparent on 21+
+- fb3f8605: Change to a more recognizable icon
+- e394445f: Properly handle dialog dismiss for SafetyNet
+- ca1b0bf1: Fix strings
+- bf579819: Fix dialog when toggling keyboard multiple times
+- ca5030a6: Updated stub translation * small derp in main translation
+- e22324e4: Update and improve Indonesian translation
+- e46d4ecd: Corrections and update ca-strings
+- 84f92bd6: Cleanup hide fragment code
+- b44dcc2d: Fix SafetyNet
+- d6062944: Update snet extension to prevent crashes on release builds
+- 79f54979: Update main RU strings
+- eaf7c3c4: Update stub RU strings
+- 1ac379c1: Update French translation
+- 51a4dbf2: Update strings.xml
+- 2d91bfd9: Update Slovak translation
+- e437ffdb: Improvements to the installation UI
+- ccde8b73: Cleanup install screen layout
+- 65f88e4a: Remove unnecessary permissions
+- 354440ee: Fix hide manager dialog
+- 59106e4f: Make sure app relaunching works after upgrade
+- d76c266f: Add strings that will be used in stub
+- 31681c9c: Remove ProcessPhoenix
+- 0e5a32b4: Close streams
+- a22a1dd2: Only offer shortcuts when running as stub
+- 27c59dbb: Disable animations in toolbar
+- fb04e324: Bypass external rw check in the proper location
+- 14a2f63b: Several changes for using MediaStore
+- 9e81db86: Support scoped storage
+- 1ed67eed: Rename classes and fields
+- abc54571: Cleanup DownloadService
+- 4b238a9c: Add feature to create launch shortcuts
+- f200d472: Move icon resources out of stubs
+- 105b2fc1: Ensure SplashActivity is ran before MainActivity
+- 5ed4071f: Change ActivityExecutor signature
+- 551a478f: Fix occasional broken animation
+- 7c319f5f: Moar refactoring
+- 1fcf35eb: Do not hardcode appcompat widget classes
+- 6d749a58: scripts: fix addon.d using $TMPDIR
+- 34450cdd: More refactoring
+- 846bbb4d: Reorganize app source code
+- d7a26dbf: Tidy up ViewEvents
+- a86d5b3e: Remove unnecessary abstractions
+- b2bece9e: Fix resources
+- f9cbf883: Update Kotlin
+
+#### Most recent 20 previous commits:
 
 - 7f225b39: Minor MarkwonImagePlugin updates
 - 72e7605f: 更新繁體中文字串
@@ -14,9 +180,6 @@
 - 3f053b85: Minor code changes
 - 79aa261c: Fixed manager beginning to hide immediately on field change
 - ac2a9da4: Fix Markdown rendering
-
-#### Most recent 20 previous commits:
-
 - d8b1d798: Fixed first title being partially obscured by toolbar
 - feb0f4b7: Fix MagiskDialog
 - 6c8fe465: Remove unused resources
@@ -25,15 +188,3 @@
 - 36a70e99: Remote -> Online
 - 537ae1a3: Cleanup setting items
 - 87b6bf2c: Remove strip in settings item
-- 9df6b061: Update MagiskHide list
-- c7e30ac6: Update superuser list
-- f5e54794: Do not toggle when clicking cards
-- d1068018: Nest CardView with alpha in another FrameLayout
-- f5aa6a3c: Update module fragment
-- c944277e: Use switches with 2 way binding instead of custom ImageView
-- 2e5402d7: Disable scroll effect for icon links
-- 24f60243: More homescreen UI improvements
-- 15b12159: Only show SafetyNet when GMS exists
-- 11222c89: Update SafetyNet icon
-- 893a8ec8: Strip out most StaggeredGridLayoutManager in code
-- da2b00de: Several home screen changes
